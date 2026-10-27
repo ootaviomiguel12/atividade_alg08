@@ -28,7 +28,7 @@ public static void main(String[] args) {
 
         System.out.println("Digite o valor a ser inserido no vetor:");
         for (int i = 0; i < vetor.length; i++){
-            System.out.println("Posicao [" + (i + 1) + "]:");
+            System.out.println("Posicao [" + i + "]:");
             vetor[i] = scanner.nextInt();
 
             soma += vetor[i];
@@ -58,7 +58,7 @@ public static void main(String[] args) {
         System.out.println("Digite o numero a ser inserido no vetor:");
 
         for (int i = 0; i < vetor.length; i++) {
-            System.out.println("Posicao [" + (i + 1) + "]: ");
+            System.out.println("Posicao [" + i + "]: ");
             vetor[i] = scanner.nextInt();
         }
             System.out.println("Digite o numero a ser buscado no vetor:");
